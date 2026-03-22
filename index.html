@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Kashyap Ajay — Student, Web Developer & Designer. Creating websites, posters, and visual designs with passion and creativity.">
+    <meta name="keywords" content="Kashyap Ajay, portfolio, web developer, designer, student, poster design">
+    <meta name="author" content="Kashyap Ajay">
+    <title>Kashyap Ajay — Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===== NAVIGATION BAR ===== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo / Brand -->
+            <a href="#home" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>KA<span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <!-- Navigation Links -->
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <!-- Mobile Menu Toggle -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </nav>
+
+
+    <!-- ===== HERO / HOME SECTION ===== -->
+    <section class="hero" id="home">
+        <!-- Animated background particles -->
+        <div class="hero-particles" id="heroParticles"></div>
+
+        <div class="hero-container">
+            <!-- Left: Text Content -->
+            <div class="hero-text" data-animate="fade-right">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">KASHYAP <span class="gradient-text">AJAY</span></h1>
+                <p class="hero-tagline">
+                    <span class="tagline-word" data-delay="0">BCA Student</span>
+                    <span class="tagline-divider">|</span>
+                    <span class="tagline-word" data-delay="1">Web Developer</span>
+                    <span class="tagline-divider">|</span>
+                    <span class="tagline-word" data-delay="2">Designer</span>
+                </p>
+                <p class="hero-description">
+                    I'm a student who loves exploring technology, traveling, and discovering new ideas. 
+                    I enjoy creating websites, designing visuals, and leading with creativity while 
+                    constantly learning and growing.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i> Contact Me
+                    </a>
+                    <a href="#services" class="btn btn-outline">
+                        <i class="fas fa-briefcase"></i> My Services
+                    </a>
+                </div>
+                <!-- Social links in hero -->
+                <div class="hero-socials">
+                    <a href="mailto:kashyapkdl@gmail.com" class="social-icon" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <!-- Right: Profile Image -->
+            <div class="hero-image" data-animate="fade-left">
+                <div class="image-wrapper">
+                    <div class="image-glow"></div>
+                    <img src="images/profile.jpg" alt="Kashyap Ajay — Profile Photo" class="profile-img">
+                    <div class="image-ring"></div>
+                </div>
+                <!-- Floating badges -->
+                <div class="floating-badge badge-1">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="floating-badge badge-2">
+                    <i class="fas fa-palette"></i>
+                </div>
+                <div class="floating-badge badge-3">
+                    <i class="fas fa-lightbulb"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll indicator -->
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <p>Scroll Down</p>
+        </div>
+    </section>
+
+
+    <!-- ===== ABOUT ME SECTION ===== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <p class="section-subtitle"><i class="fas fa-user"></i> Get to Know Me</p>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-content" data-animate="fade-right">
+                    <p class="about-text">
+                        I'm a <strong>BCA student at DCSMAT Vagamon</strong>, 
+                        having completed my schooling at <strong>Kendriya Vidyalaya CRPF Pallipuram</strong>. 
+                        I have a deep interest in <strong>technology, web development, and design</strong>. 
+                        I'm passionate about building clean, responsive websites and creating eye-catching 
+                        posters and visuals for events and social media.
+                    </p>
+                    <p class="about-text">
+                        I believe in continuous learning and love exploring new tools and technologies. 
+                        Whether it's coding a web page from scratch or editing a creative design, 
+                        I put my heart into everything I create. I'm always looking for ways to grow 
+                        and improve my craft.
+                    </p>
+
+                    <!-- About info cards -->
+                    <div class="about-info-grid">
+                        <div class="about-info-card">
+                            <div class="info-icon"><i class="fas fa-code"></i></div>
+                            <div>
+                                <h4>Web Development</h4>
+                                <p>Building modern websites</p>
+                            </div>
+                        </div>
+                        <div class="about-info-card">
+                            <div class="info-icon"><i class="fas fa-paint-brush"></i></div>
+                            <div>
+                                <h4>Design & Editing</h4>
+                                <p>Posters & visual content</p>
+                            </div>
+                        </div>
+                        <div class="about-info-card">
+                            <div class="info-icon"><i class="fas fa-graduation-cap"></i></div>
+                            <div>
+                                <h4>BCA Student</h4>
+                                <p>DCSMAT Vagamon</p>
+                            </div>
+                        </div>
+                        <div class="about-info-card">
+                            <div class="info-icon"><i class="fas fa-plane"></i></div>
+                            <div>
+                                <h4>Explorer</h4>
+                                <p>Travel & discover ideas</p>
+                            </div>
+                        </div>
+                        <div class="about-info-card">
+                            <div class="info-icon"><i class="fas fa-microchip"></i></div>
+                            <div>
+                                <h4>Tech Enthusiast</h4>
+                                <p>Exploring new technologies</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats column -->
+                <div class="about-stats" data-animate="fade-left">
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="10">0</div>
+                        <span class="stat-plus">+</span>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="5">0</div>
+                        <span class="stat-plus">+</span>
+                        <p class="stat-label">Technologies Learned</p>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number" data-count="20">0</div>
+                        <span class="stat-plus">+</span>
+                        <p class="stat-label">Designs Created</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <p class="section-subtitle"><i class="fas fa-cogs"></i> What I Know</p>
+                <h2 class="section-title">My <span class="gradient-text">Skills</span></h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Technical Skills -->
+                <div class="skills-category" data-animate="fade-up">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-html5"></i> HTML</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-css3-alt"></i> CSS</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-js-square"></i> JavaScript</span>
+                                <span class="skill-percent">40%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="40"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fas fa-database"></i> MySQL</span>
+                                <span class="skill-percent">87%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="87"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fas fa-c"></i> C</span>
+                                <span class="skill-percent">55%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="55"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fas fa-c"></i> C++</span>
+                                <span class="skill-percent">50%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="50"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Creative Skills -->
+                <div class="skills-category" data-animate="fade-up" data-delay="200">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-palette"></i></div>
+                        <h3>Creative Skills</h3>
+                    </div>
+                    <div class="skills-cards">
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-image"></i></div>
+                            <h4>Poster Design</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-wand-magic-sparkles"></i></div>
+                            <h4>Image Editing</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-share-nodes"></i></div>
+                            <h4>Social Media Design</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skills-category" data-animate="fade-up" data-delay="400">
+                    <div class="category-header">
+                        <div class="category-icon"><i class="fas fa-handshake"></i></div>
+                        <h3>Soft Skills</h3>
+                    </div>
+                    <div class="skills-cards">
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-comments"></i></div>
+                            <h4>Communication</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h4>Creativity</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="creative-skill-card">
+                            <div class="creative-icon"><i class="fas fa-puzzle-piece"></i></div>
+                            <h4>Problem Solving</h4>
+                            <div class="creative-level">
+                                <div class="level-dots">
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot active"></span>
+                                    <span class="dot"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <p class="section-subtitle"><i class="fas fa-briefcase"></i> What I Offer</p>
+                <h2 class="section-title">My <span class="gradient-text">Services</span></h2>
+            </div>
+
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card" data-animate="fade-up">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-globe"></i></div>
+                        <div class="service-glow"></div>
+                    </div>
+                    <h3 class="service-title">Web Page Creation</h3>
+                    <p class="service-desc">
+                        I create simple and responsive websites for personal and small business use. 
+                        From single-page portfolios to multi-section landing pages.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Responsive Design</span>
+                        <span><i class="fas fa-check"></i> Clean Code</span>
+                        <span><i class="fas fa-check"></i> Modern UI</span>
+                    </div>
+                </div>
+
+                <!-- Service Card 2 -->
+                <div class="service-card" data-animate="fade-up" data-delay="200">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-robot"></i></div>
+                        <div class="service-glow"></div>
+                    </div>
+                    <h3 class="service-title">Solve Problems with AI</h3>
+                    <p class="service-desc">
+                        I leverage AI tools to solve complex problems efficiently, 
+                        helping with research, automation, and creative solutions.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> AI-Powered Solutions</span>
+                        <span><i class="fas fa-check"></i> Smart Automation</span>
+                        <span><i class="fas fa-check"></i> Fast Results</span>
+                    </div>
+                </div>
+
+                <!-- Service Card 3 -->
+                <div class="service-card" data-animate="fade-up" data-delay="400">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                        <div class="service-glow"></div>
+                    </div>
+                    <h3 class="service-title">Poster & Design Editing</h3>
+                    <p class="service-desc">
+                        I design and edit posters for events, brands, and social media. 
+                        Eye-catching visuals that communicate your message effectively.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Event Posters</span>
+                        <span><i class="fas fa-check"></i> Brand Design</span>
+                        <span><i class="fas fa-check"></i> Social Media</span>
+                    </div>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="service-card" data-animate="fade-up" data-delay="600">
+                    <div class="service-icon-wrapper">
+                        <div class="service-icon"><i class="fas fa-wrench"></i></div>
+                        <div class="service-glow"></div>
+                    </div>
+                    <h3 class="service-title">Small Website Edits</h3>
+                    <p class="service-desc">
+                        I help fix, update, or improve existing web pages. 
+                        Whether it's a style change or layout fix — I've got you covered.
+                    </p>
+                    <div class="service-features">
+                        <span><i class="fas fa-check"></i> Bug Fixes</span>
+                        <span><i class="fas fa-check"></i> UI Updates</span>
+                        <span><i class="fas fa-check"></i> Improvements</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="section education" id="education">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <p class="section-subtitle"><i class="fas fa-graduation-cap"></i> My Journey</p>
+                <h2 class="section-title">Education <span class="gradient-text">Timeline</span></h2>
+            </div>
+
+            <div class="timeline" data-animate="fade-up">
+                <!-- Timeline line at center -->
+                <div class="timeline-line"></div>
+
+                <!-- Education Item 1 — BCA (Current) -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">Current</div>
+                        <h3>BCA — Bachelor of Computer Applications</h3>
+                        <h4><i class="fas fa-map-marker-alt"></i> DCSMAT Vagamon</h4>
+                        <p class="timeline-board"><i class="fas fa-certificate"></i> University Degree</p>
+                        <p class="timeline-desc">
+                            Currently pursuing BCA, deepening knowledge in computer science, 
+                            programming, web technologies, and software development.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education Item 2 — Class 12 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-badge">Completed</div>
+                        <h3>Class 12 — Commerce + Informatics Practices</h3>
+                        <h4><i class="fas fa-map-marker-alt"></i> Kendriya Vidyalaya CRPF Pallipuram</h4>
+                        <p class="timeline-board"><i class="fas fa-certificate"></i> CBSE Board</p>
+                        <p class="timeline-desc">
+                            Completed Commerce stream with Informatics Practices, 
+                            building a strong foundation in business and technology.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Education Item 3 — Class 10 -->
+                <div class="timeline-item">
+                    <div class="timeline-dot">
+                        <i class="fas fa-book-open"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Class 10 — Completed</h3>
+                        <h4><i class="fas fa-map-marker-alt"></i> Kendriya Vidyalaya CRPF Pallipuram</h4>
+                        <p class="timeline-board"><i class="fas fa-certificate"></i> CBSE Board</p>
+                        <p class="timeline-desc">
+                            Successfully completed Class 10 with a solid academic record, 
+                            preparing the foundation for future studies and career.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <p class="section-subtitle"><i class="fas fa-paper-plane"></i> Get in Touch</p>
+                <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Contact Info Cards -->
+                <div class="contact-info" data-animate="fade-right">
+                    <h3>Let's Work Together</h3>
+                    <p>Have a project in mind? Want to collaborate? Feel free to reach out to me!</p>
+
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:kashyapkdl@gmail.com">kashyapkdl@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Attingal, Thiruvananthapuram</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-card-icon"><i class="fas fa-clock"></i></div>
+                            <div>
+                                <h4>Availability</h4>
+                                <p>Open for freelance work</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social links -->
+                    <div class="contact-socials">
+                        <a href="mailto:kashyapkdl@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper" data-animate="fade-left">
+                    <form class="contact-form" id="contactForm" action="https://formsubmit.co/kashyapkdl@gmail.com" method="POST">
+                        <!-- FormSubmit Configuration (hidden fields) -->
+                        <input type="hidden" name="_subject" value="New message from your Portfolio Website!">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_template" value="table">
+                        <input type="text" name="_honey" style="display:none">
+
+                        <div class="form-group">
+                            <label for="name"><i class="fas fa-user"></i> Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-message"></i> Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Hey, I'd love to work with you..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Logo -->
+                <a href="#home" class="footer-logo">
+                    <span class="logo-bracket">&lt;</span>KA<span class="logo-bracket">/&gt;</span>
+                </a>
+
+                <!-- Footer Nav -->
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+
+                <!-- Social Links -->
+                <div class="footer-socials">
+                    <a href="mailto:kashyapkdl@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 <span class="gradient-text">Kashyap</span>. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart" style="color: #e74c3c;"></i> and code</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
